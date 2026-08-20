@@ -13,7 +13,13 @@ Managing customer relationships efficiently requires structured data tracking an
 
 ---
 
+## Tech Stack
 
+* **Backend Framework:** PHP 8.2+ / [Laravel](https://laravel.com)
+* **Frontend Asset Bundling:** [Vite](https://vitejs.dev)
+* **Database:** [PostgreSQL](https://www.postgresql.org) (Serverless via [Neon](https://neon.tech)) / MySQL
+* **Authentication:** Laravel Auth & Google OAuth
+* **Containerization & Hosting:** Docker, [Render](https://render.com)
 
 ---
 
