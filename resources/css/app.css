@@ -104,17 +104,7 @@ html.lenis, html.lenis body {
     overscroll-behavior: contain;
 }
 
-.lenis-stopped {
-    overflow: hidden;
-}
 
-.lenis-scrolling iframe {
-    pointer-events: none;
-}
-
-.scroll-section {
-    position: relative;
-}
 
 .scroll-section .container-boxed {
     will-change: transform, opacity;
