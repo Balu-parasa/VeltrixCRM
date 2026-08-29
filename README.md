@@ -91,19 +91,7 @@ VeltrixCRM includes full Docker support and is optimized for direct deployment o
 
 Set the following environment variables in your deployment dashboard:
 
-```env
-APP_ENV=production
-APP_DEBUG=false
-DB_CONNECTION=pgsql
-DB_HOST=ep-your-neon-host.aws.neon.tech
-DB_PORT=5432
-DB_DATABASE=neondb
-DB_USERNAME=neondb_owner
-DB_PASSWORD="endpoint=ep-your-neon-endpoint;your_actual_password"
-DB_SSLMODE=require
-QUEUE_CONNECTION=sync
 
-```
 
 > **Note:** The `endpoint=...;` prefix in `DB_PASSWORD` is required for specific older `libpq` drivers and local Windows development. On modern Linux containers (such as Render native builds), you can use the raw database password.
 
